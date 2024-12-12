@@ -1,80 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Nguyễn Anh Tới</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Nguyen Anh Toi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #333;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #0073e6;
+            margin-bottom: 10px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .key-technologies {
+            margin-top: 10px;
+            padding-left: 15px;
+        }
+    </style>
 </head>
-
 <body>
     <div class="container">
-        <div class="avatar">
-            <img src="myCV.jpg" alt="">
-        </div>
-        <div class="name">
+        <div class="header">
             <h1>NGUYEN ANH TOI</h1>
-            <div class="specialize">
-                Back-end Developer
-            </div>
-            <ul class="contact">
-                <li><span>P </span>(+84) 349-978-416</li>
-                <li><span>E </span>toidxbp02@gmail.com</li>
-                <li><span>W </span>https://bfstreet.github.io/MyCV/</li>
-            </ul>
+            <p>Backend Developer Intern</p>
+            <p>Thu Duc, Ho Chi Minh City | toidxbp02@gmail.com | 0349978416</p>
+            <p><a href="https://github.com/BFStReEt">GitHub</a> | <a href="https://linkedin.com/in/nguyen-anh-toi-2a5254303">LinkedIn</a></p>
         </div>
 
-        <div class="info">
+        <div class="section">
+            <h2>Technical Skills</h2>
             <ul>
-                <li> From <b>Ho Chi Minh City</b> - <b>VietNam</b></li>
-                <li>24/10/2000</li>
-                <li>Ho Chi Minh University Of Technology</li>
+                <li><strong>Programming Language:</strong> PHP (MVC model, API Development, Frameworks), C# (.NET Core, SOLID, LINQ, async/await).</li>
+                <li><strong>Frameworks:</strong> Laravel, ASP.NET Core.</li>
+                <li><strong>Database:</strong> SQL Server, MySQL.</li>
+                <li><strong>Other Tools:</strong> Git, GitHub.</li>
             </ul>
         </div>
 
-        <div class="intro">
-            <h2>ABOUT ME</h2>
-            My goal is to continuously enhance my skills, stay updated with emerging technologies, and collaborate with
-            peers to create impactful software solutions
-        </div>
-        <div class="edu">
-            <h2>EDUCATION</h2>
-            <div class="item">
-                <h4>Ho Chi minh City of Technology University</h4>
-                <span>School year: 2020 - 2024</span><br>
-                <span>Major: Information Technology</span>
-            </div>
-        </div>
-
-        <div class="exper">
-            <h2>EXPERIENCE</h2>
-        </div>
-
-
-        <div class="exp">
-            <h2>EXPERTISE</h2>
-            <div class="item">
-                <h4>English: Low Intermediate</h4>
-                <div class="des">
-                    <span>I can make simple sentences and can understand the main points of a conversation</li></span>
-                </div>
-
-                <h4>Technologies</h4>
-                <div class="des2">
-                    <span>ReactJS
-                        <br>Redux
-                        <br>HTML, CSS, and SCSS
-                        <br> Bootstrap 4 and Reactstrap
-                        <br>Node.js, .NET and Express
-                        <br>MySQL,SQL Server and Sequelize</span>
-                </div>
-            </div>
+        <div class="section">
+            <h2>Personal Projects</h2>
+            <ul>
+                <li>
+                    <strong>3TK Music (Mar 2024 - May 2024):</strong> Online music streaming platform.
+                    <div class="key-technologies">
+                        Key Technologies: PHP, Smarty Templates, MySQL, HTML, CSS, JavaScript.
+                        <br>
+                        <a href="https://github.com/BFStReEt/Website-Am-Nhac">GitHub Link</a>
+                    </div>
+                </li>
+                <li>
+                    <strong>3TK Shop (Sep 2024 - Now):</strong> E-commerce website.
+                    <div class="key-technologies">
+                        Key Technologies: Laravel, JavaScript, HTML, CSS.
+                        <br>
+                        <a href="https://github.com/BFStReEt/Shop-larevel">GitHub Link</a>
+                    </div>
+                </li>
+                <li>
+                    <strong>3TK BookStore (Mar 2023 - May 2023):</strong> Online bookstore management platform.
+                    <div class="key-technologies">
+                        Key Technologies: .NET, MySQL, HTML, CSS, JavaScript, SCSS.
+                        <br>
+                        <a href="https://github.com/BFStReEt/QuanLyBanSach">GitHub Link</a>
+                    </div>
+                </li>
+            </ul>
         </div>
 
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>HCM University of Technology (Aug 2020 - Dec 2024):</strong> Major: Information Technology | GPA: 2.94/4.0</p>
+        </div>
 
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>IT Support (May 2024 - Aug 2024):</strong> DAI DUONG COMPANY</li>
+                <li>Provided troubleshooting support for hardware and software issues.</li>
+                <li>Installed software and maintained security on workstations.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Objectives</h2>
+            <ul>
+                <li><strong>Short-term:</strong> Enhance programming skills in PHP, C#, and ASP.NET Core through projects and certifications.</li>
+                <li><strong>Long-term:</strong> Accomplish significant IT milestones, stay updated with emerging technologies, and take on a leadership role.</li>
+            </ul>
+        </div>
     </div>
 </body>
-
 </html>
